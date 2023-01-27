@@ -12,7 +12,7 @@ const FlashDeals = () => {
     return (
         <Container>
             <div className='flex justify-between mt-10 mb-5'>
-                <h2>Flash Deals</h2>
+                <h2 className='font-bold'>Flash Deals</h2>
                 <div className='flex items-center gap-2'>
                     <p>View more</p>
                     <AiOutlineArrowRight />
@@ -40,7 +40,7 @@ const FlashDeals = () => {
                     </div>
                 </div>
                 <div className='h-[350px] bg-white border border-[#F4F4F6] p-2 rounded-md mb-4'>
-                    <div className='bg-[#F4F4F6] rounded-md'>
+                    <div className='bg-[#F2F2F2] rounded-md'>
                         <img className='w-[150px] h-[200px] mx-auto pt-4 relative' src={deals2} alt="" />
                         <div className=' mb[-100px]'>
                             <small className='bg-gradient-to-r from-[#FF7A01] to-[#FFAE01] px-1 rounded-tl-lg absolute mt-[-200px] text-white'>-25%OFF</small>
@@ -59,7 +59,7 @@ const FlashDeals = () => {
                     </div>
                 </div>
                 <div className='h-[350px] bg-white border border-[#F4F4F6] p-2 rounded-md mb-4'>
-                    <div className='bg-[#F4F4F6] rounded-md'>
+                    <div className='bg-[#F2F2F2] rounded-md'>
                         <img className='w-[150px] h-[200px] mx-auto pt-4 relative' src={deals3} alt="" />
                         <div className=' mb[-100px]'>
                             <small className='bg-gradient-to-r from-[#FF7A01] to-[#FFAE01] px-1 rounded-tl-lg absolute mt-[-200px] text-white'>-25%OFF</small>
@@ -78,7 +78,7 @@ const FlashDeals = () => {
                     </div>
                 </div>
                 <div className='h-[350px] bg-white border border-[#F4F4F6] p-2 rounded-md mb-4'>
-                    <div className='bg-[#F4F4F6] rounded-md'>
+                    <div className='bg-[#F2F2F2] rounded-md'>
                         <img className='w-[150px] h-[200px] mx-auto pt-4 relative' src={deals4} alt="" />
                         <div className=' mb[-100px]'>
                             <small className='bg-gradient-to-r from-[#FF7A01] to-[#FFAE01] px-1 rounded-tl-lg absolute mt-[-200px] text-white'>-25%OFF</small>
