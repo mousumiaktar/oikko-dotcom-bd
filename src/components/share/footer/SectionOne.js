@@ -9,22 +9,22 @@ const SectionOne = () => {
     return (
         <>
             <Container>
-                <div className='grid grid-cols-4 py-8'>
-                    <div className='flex items-center gap-2'>
+                <div className='grid lg:grid-cols-4 md:grid-cols-2 py-8'>
+                    <div className='flex items-center gap-2 mb-2'>
                         <img className='w-12 h-8' src={car} alt="" />
                         <div>
                             <p>FREE SHIPPING</p>
                             <small>Ordr Via Campaign</small>
                         </div>
                     </div>
-                    <div className='flex items-center gap-2'>
+                    <div className='flex items-center gap-2 mb-2'>
                         <img className='w-8 h-8' src={clock} alt="" />
                         <div>
                             <p>BEST PRICE</p>
                             <small>Quality Products</small>
                         </div>
                     </div>
-                    <div className='flex items-center gap-2'>
+                    <div className='flex items-center gap-2 mb-2'>
                         <img className='w-8 h-8' src={start} alt="" />
                         <div>
                             <p>FREE RETURN</p>
