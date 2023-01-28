@@ -21,7 +21,10 @@ import Container from '../Container';
 const Category = () => {
     return (
         <Container>
-            <div> 
+            <div>
+                <div className='flex justify-between mt-10 mb-5'>
+                    <h2 className='font-bold'>Category</h2>
+                </div>
                 <div className='lg:grid lg:grid-cols-5 md:grid md:grid-cols-3 grid grid-cols-1 gap-3 mt-8'>
                     <div className='bg-white flex justify-between items-center shadow-md p-3 rounded-md'>
                         <div className='flex gap-3 items-center'>

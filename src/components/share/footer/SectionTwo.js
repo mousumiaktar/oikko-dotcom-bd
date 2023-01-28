@@ -11,7 +11,7 @@ const SectionTwo = () => {
     return (
         <>
             <Container>
-                <div className='grid lg:grid-cols-4 md:grid-cols-2 mt-4'>
+                <div className='grid lg:grid-cols-4 md:grid-cols-2 gap-4 mt-4'>
                     <div>
                         <img className='h-[130px] mt-[-40px]' src={logo} alt="" />
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
