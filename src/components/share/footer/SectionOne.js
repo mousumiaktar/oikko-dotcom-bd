@@ -11,31 +11,31 @@ const SectionOne = () => {
             <Container>
                 <div className='grid lg:grid-cols-4 md:grid-cols-2 py-8'>
                     <div className='flex items-center gap-2 mb-2'>
-                        <img className='w-12 h-8' src={car} alt="" />
+                        <img className='w-10 h-7' src={car} alt="" />
                         <div>
                             <p>FREE SHIPPING</p>
-                            <small>Ordr Via Campaign</small>
+                            <p className='text-sm text-[#757575]'>Ordr Via Campaign</p>
                         </div>
                     </div>
                     <div className='flex items-center gap-2 mb-2'>
-                        <img className='w-8 h-8' src={clock} alt="" />
+                        <img className='w-7 h-7' src={clock} alt="" />
                         <div>
                             <p>BEST PRICE</p>
-                            <small>Quality Products</small>
+                            <p className='text-sm text-[#757575]'>Quality Products</p>
                         </div>
                     </div>
                     <div className='flex items-center gap-2 mb-2'>
-                        <img className='w-8 h-8' src={start} alt="" />
+                        <img className='w-7 h-7' src={start} alt="" />
                         <div>
                             <p>FREE RETURN</p>
-                            <small>Within 7 Days Return</small>
+                            <p className='text-sm text-[#757575]'>Within 7 Days Return</p>
                         </div>
                     </div>
                     <div className='flex items-center gap-2'>
-                        <img className='w-8 h-8' src={payment} alt="" />
+                        <img className='w-7 h-7' src={payment} alt="" />
                         <div>
                             <p>SECURE PAYMENT</p>
-                            <small>100% Secure Payment</small>
+                            <p className='text-sm text-[#757575]'>100% Secure Payment</p>
                         </div>
                     </div>
                 </div>

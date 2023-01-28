@@ -13,6 +13,7 @@ import whatsup from "../../../images/details/whatsup.png";
 import link from "../../../images/details/link.png";
 import Ratings from '../../features/Ratings';
 import DetailsPartTwo from './DetailsPartTwo';
+import ReviewForm from './ReviewForm';
 
 const Details = () => {
     return (
@@ -23,10 +24,10 @@ const Details = () => {
                     <div className='flex items-center gap-4'>
                         <div>
                             <div className='flex items-center mt-8'>
-                                <small className='text-[#6E8B9A]'>Home</small>
-                                <small className='text-[#6E8B9A]'><AiOutlineRight /></small>
-                                <small className='text-[#6E8B9A]'>Men's Fashion</small>
-                                <small className='text-[#6E8B9A]'><AiOutlineRight /></small>
+                                <small className='text-[#02344F]'>Home</small>
+                                <small className='text-[#02344F]'><AiOutlineRight /></small>
+                                <small className='text-[#02344F]'>Men's Fashion</small>
+                                <small className='text-[#02344F]'><AiOutlineRight /></small>
                                 <small>Men's Stand Collar Leather Jacket</small>
                             </div>
                             <img className='bg-[#F3F3F3] mt-5' src={ladies} alt="" />
@@ -54,7 +55,7 @@ const Details = () => {
                     {/* 2nd====================================== */}
                     <div className='mt-20'>
                         <div>
-                            <h4 className='font-bold  text-gray-600'>Super Skinny Rib Trouser & Joggers for Men By Sowdagar Trouser</h4>
+                            <p className='font-bold  text-gray-600'>Super Skinny Rib Trouser & Joggers for Men By Sowdagar Trouser</p>
                             <div className='flex gap-4 mt-4'>
                                 <p className='flex items-center gap-2'><small>4.0</small> <Ratings /></p>
                                 <p className='flex items-center gap-2'> <BsCheckLg className='w-[21px] h-[15px] text-[#0AC96D]' /> <small>4,320</small> <small>sold</small></p>
@@ -62,20 +63,20 @@ const Details = () => {
                             </div>
                             <div className='flex items-center gap-4 mt-4'>
                                 <h5 className='text-[#0198E9] font-bold'>$976.33</h5>
-                                <small><del>$1,020.99</del></small>
+                                <small><del className='text-[#8D8D8D] font-bold'>$1,020.99</del></small>
                                 <button><small className='bg-gradient-to-r from-[#FF7A01] to-[#FFAE01] px-1 rounded-sm text-white'>20%</small></button>
                             </div>
                             <div className='flex items-center gap-4 my-3'>
-                                <small><span className='font-bold text-gray-700'>SKU:</span> 12314124124</small>
-                                <p className='flex items-center'><BsFillCheckCircleFill className='h-[10px] text-[#3AB137]' /><small>In Stock</small></p>
+                                <small className='text-[#757575]'><span className='font-bold text-gray-700'>SKU:</span> 12314124124</small>
+                                <p className='flex items-center'><BsFillCheckCircleFill className='h-[10px] text-[#3AB137]' /><small className='text-[#757575]'>In Stock</small></p>
                             </div>
                             <hr />
                             <div className='mt-3'>
-                                <p className='text-sm'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                                <p className='text-sm mb-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                                 <ul className='list-disc ml-8'>
-                                    <li className='text-sm'>Direct Full Array</li>
-                                    <li className='text-sm'>Quantum Dot Technology</li>
-                                    <li className='text-sm'>Ambient Mode</li>
+                                    <li className='text-sm mb-1'>Direct Full Array</li>
+                                    <li className='text-sm mb-1'>Quantum Dot Technology</li>
+                                    <li className='text-sm mb-1'>Ambient Mode</li>
                                     <li className='text-sm'>One Remote Control</li>
                                 </ul>
                             </div>
@@ -101,7 +102,7 @@ const Details = () => {
                     {/* 2nd====================================== */}
                 </div>
                 <DetailsPartTwo />
-                
+                {/* <ReviewForm /> */}
             </Container>
         </div>
     );

@@ -14,7 +14,7 @@ const SectionTwo = () => {
                 <div className='grid lg:grid-cols-4 md:grid-cols-2 gap-4 mt-4'>
                     <div>
                         <img className='h-[130px] mt-[-40px]' src={logo} alt="" />
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p className='text-sm'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <div className='flex items-center gap-2 mt-3'>
                             <img className='h-[30px]' src={facebook} alt="" />
                             <img className='h-[30px]' src={twiter} alt="" />
@@ -44,7 +44,7 @@ const SectionTwo = () => {
                     </div>
                     <div>
                         <h4>Content</h4>
-                        <p className='mt-3'>
+                        <p className='mt-3 text-sm'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                             Have any question?
                             099 456 789</p>
