@@ -12,10 +12,11 @@ import facebook from "../../../images/details/facebook.png";
 import whatsup from "../../../images/details/whatsup.png";
 import link from "../../../images/details/link.png";
 import Ratings from '../../features/Ratings';
+import DetailsPartTwo from './DetailsPartTwo';
 
 const Details = () => {
     return (
-        <div className='bg-[#FAFAFA]'>
+        <div className='bg-[#FAFAFA] pb-8'>
             <Container>
                 <div className='grid lg:grid-cols-2 md:grid-cols-1'>
                     {/* ====================================== */}
@@ -99,6 +100,8 @@ const Details = () => {
                     </div>
                     {/* 2nd====================================== */}
                 </div>
+                <DetailsPartTwo />
+                
             </Container>
         </div>
     );
