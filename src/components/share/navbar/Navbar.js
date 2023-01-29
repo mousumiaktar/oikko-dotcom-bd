@@ -22,8 +22,8 @@ const Navbar = () => {
                 </div>
                 <div className='hidden lg:block'>
                     <div className='flex items-center '>
-                        <input className='border border-[#F1F1F1] bg-[#F6F6F6] py-1 px-2' type="text" placeholder="I'm Lookin for..." />
-                        <button className='bg-[#0198E9] py-2 px-2'><BiSearch className='text-white' /></button>
+                        <input  className='border border-[#F1F1F1] bg-[#F6F6F6] py-1 px-2 w-[500px]' type="text" placeholder="I'm looking for..." />
+                        <button className='bg-[#0198E9] py-2 px-2 rounded-r-sm'><BiSearch className='text-white' /></button>
                     </div>
                 </div>
                 <div className='hidden lg:flex gap-4'>

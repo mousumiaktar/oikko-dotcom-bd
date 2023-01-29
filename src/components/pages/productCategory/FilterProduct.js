@@ -8,11 +8,11 @@ const FilterProduct = () => {
                 <p className='font-medium text-[#383838]'>Related Categories</p>
                 <div className='text-sm'>
                     <p className='text-[#757575] font-normal'>Men's Fashion</p>
-                    <div className='text-[#757575] ml-1'>
+                    <div className='text-[#757575] ml-2'>
                         <p className='text-[#0198E9] mb-1'>Men’s Jacket</p>
-                        <p className='mb-1'>Men's T-Shirts</p>
-                        <p className='mb-1'>Casual Shirts</p>
-                        <p className='mb-1'>Summer T-Shirts</p>
+                        <p className='mb-2'>Men's T-Shirts</p>
+                        <p className='mb-2'>Casual Shirts</p>
+                        <p className='mb-2'>Summer T-Shirts</p>
                     </div>
                 </div>
                 <hr className='my-4' />

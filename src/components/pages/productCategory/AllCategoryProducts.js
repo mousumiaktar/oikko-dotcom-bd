@@ -8,6 +8,7 @@ import pro8 from "../../../images/products/pro8.png"
 import pro10 from "../../../images/products/pro10.png"
 import pro11 from "../../../images/products/pro11.png"
 import pro12 from "../../../images/products/pro12.png"
+import { BsBasket } from 'react-icons/bs';
 
 const AllCategoryProducts = () => {
     return (
@@ -26,7 +27,7 @@ const AllCategoryProducts = () => {
                     </div>
                     <div className='flex justify-between text-[#227ED2] font-medium mt-4'>
                         <p>৳10500</p>
-                        <p><RiDeleteBin5Line /></p>
+                        <p><BsBasket /></p>
                     </div>
                 </div>
             </div>
@@ -45,7 +46,7 @@ const AllCategoryProducts = () => {
                     </div>
                     <div className='flex justify-between text-[#227ED2] font-medium mt-4'>
                         <p>৳10500</p>
-                        <p><RiDeleteBin5Line /></p>
+                        <p><BsBasket /></p>
                     </div>
                 </div>
             </div>
@@ -64,7 +65,7 @@ const AllCategoryProducts = () => {
                     </div>
                     <div className='flex justify-between text-[#227ED2] font-medium mt-4'>
                         <p>৳10500</p>
-                        <p><RiDeleteBin5Line /></p>
+                        <p><BsBasket /></p>
                     </div>
                 </div>
             </div>
@@ -83,7 +84,7 @@ const AllCategoryProducts = () => {
                     </div>
                     <div className='flex justify-between text-[#227ED2] font-medium mt-4'>
                         <p>৳10500</p>
-                        <p><RiDeleteBin5Line /></p>
+                        <p><BsBasket /></p>
                     </div>
                 </div>
             </div>
@@ -102,7 +103,7 @@ const AllCategoryProducts = () => {
                     </div>
                     <div className='flex justify-between text-[#227ED2] font-medium mt-4'>
                         <p>৳10500</p>
-                        <p><RiDeleteBin5Line /></p>
+                        <p><BsBasket /></p>
                     </div>
                 </div>
             </div>
@@ -120,7 +121,7 @@ const AllCategoryProducts = () => {
                     </div>
                     <div className='flex justify-between text-[#227ED2] font-medium mt-4'>
                         <p>৳10500</p>
-                        <p><RiDeleteBin5Line /></p>
+                        <p><BsBasket /></p>
                     </div>
                 </div>
             </div>
@@ -139,7 +140,7 @@ const AllCategoryProducts = () => {
                     </div>
                     <div className='flex justify-between text-[#227ED2] font-medium mt-4'>
                         <p>৳10500</p>
-                        <p><RiDeleteBin5Line /></p>
+                        <p><BsBasket /></p>
                     </div>
                 </div>
             </div>
@@ -158,7 +159,7 @@ const AllCategoryProducts = () => {
                     </div>
                     <div className='flex justify-between text-[#227ED2] font-medium mt-4'>
                         <p>৳10500</p>
-                        <p><RiDeleteBin5Line /></p>
+                        <p><BsBasket /></p>
                     </div>
                 </div>
             </div>
@@ -177,7 +178,7 @@ const AllCategoryProducts = () => {
                     </div>
                     <div className='flex justify-between text-[#227ED2] font-medium mt-4'>
                         <p>৳10500</p>
-                        <p><RiDeleteBin5Line /></p>
+                        <p><BsBasket /></p>
                     </div>
                 </div>
             </div>
@@ -196,7 +197,7 @@ const AllCategoryProducts = () => {
                     </div>
                     <div className='flex justify-between text-[#227ED2] font-medium mt-4'>
                         <p>৳10500</p>
-                        <p><RiDeleteBin5Line /></p>
+                        <p><BsBasket /></p>
                     </div>
                 </div>
             </div>
@@ -215,7 +216,7 @@ const AllCategoryProducts = () => {
                     </div>
                     <div className='flex justify-between text-[#227ED2] font-medium mt-4'>
                         <p>৳10500</p>
-                        <p><RiDeleteBin5Line /></p>
+                        <p><BsBasket /></p>
                     </div>
                 </div>
             </div>
@@ -234,7 +235,7 @@ const AllCategoryProducts = () => {
                     </div>
                     <div className='flex justify-between text-[#227ED2] font-medium mt-4'>
                         <p>৳10500</p>
-                        <p><RiDeleteBin5Line /></p>
+                        <p><BsBasket /></p>
                     </div>
                 </div>
             </div>

@@ -7,6 +7,7 @@ import deals3 from "../../../images/deals/del3.png"
 import deals4 from "../../../images/deals/del4.png"
 import Ratings from '../../features/Ratings';
 import { RiDeleteBin5Line } from 'react-icons/ri';
+import { BsBasket } from 'react-icons/bs';
 
 const FlashDeals = () => {
     return (
@@ -35,7 +36,7 @@ const FlashDeals = () => {
                         </div>
                         <div className='flex justify-between text-[#227ED2] font-bold mt-4'>
                             <p>৳10500</p>
-                            <p><RiDeleteBin5Line /></p>
+                            <p><BsBasket /></p>
                         </div>
                     </div>
                 </div>
@@ -54,7 +55,7 @@ const FlashDeals = () => {
                         </div>
                         <div className='flex justify-between text-[#227ED2] font-bold mt-10'>
                             <p>৳10500</p>
-                            <p><RiDeleteBin5Line /></p>
+                            <p><BsBasket /></p>
                         </div>
                     </div>
                 </div>
@@ -73,7 +74,7 @@ const FlashDeals = () => {
                         </div>
                         <div className='flex justify-between text-[#227ED2] font-bold mt-4'>
                             <p>৳10500</p>
-                            <p><RiDeleteBin5Line /></p>
+                            <p><BsBasket /></p>
                         </div>
                     </div>
                 </div>
@@ -92,7 +93,7 @@ const FlashDeals = () => {
                         </div>
                         <div className='flex justify-between text-[#227ED2] font-bold mt-4'>
                             <p>৳10500</p>
-                            <p><RiDeleteBin5Line /></p>
+                            <p><BsBasket /></p>
                         </div>
                     </div>
                 </div>

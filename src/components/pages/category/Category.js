@@ -28,105 +28,105 @@ const Category = () => {
                 <div className='lg:grid lg:grid-cols-5 md:grid md:grid-cols-3 grid grid-cols-1 gap-3 mt-8 text-sm'>
                     <div className='bg-white flex justify-between items-center shadow-md p-3 rounded-md'>
                         <div className='flex gap-3 items-center'>
-                            <img className='w-[29px] h-[32px]' src={ctg1} alt="" />
+                            <img className='w-[25px] h-[25px]' src={ctg1} alt="" />
                             <p className='text-gray-700'>Health & Household</p>
                         </div>
                         <img className='h-4' src={icon} alt="" />
                     </div>
                     <div className='bg-white flex justify-between items-center shadow-md p-3 rounded-md'>
                         <div className='flex gap-3 items-center'>
-                            <img className='w-[29px] h-[32px]' src={ctg2} alt="" />
+                            <img className='w-[25px] h-[25px]' src={ctg2} alt="" />
                             <p className='text-gray-700'>Kids Fashion</p>
                         </div>
                         <img className='h-4' src={icon} alt="" />
                     </div>
                     <div className='bg-white flex justify-between items-center shadow-md p-3 rounded-md'>
                         <div className='flex gap-3 items-center'>
-                            <img className='w-[29px] h-[32px]' src={ctg3} alt="" />
+                            <img className='w-[25px] h-[25px]' src={ctg3} alt="" />
                             <p className='text-gray-700'>Toys</p>
                         </div>
                         <img className='h-4' src={icon} alt="" />
                     </div>
                     <div className='bg-white flex justify-between items-center shadow-md p-3 rounded-md'>
                         <div className='flex gap-3 items-center'>
-                            <img className='w-[29px] h-[32px]' src={ctg4} alt="" />
+                            <img className='w-[25px] h-[25px]' src={ctg4} alt="" />
                             <p className='text-gray-700'>Groceries</p>
                         </div>
                         <img className='h-4' src={icon} alt="" />
                     </div>
                     <div className='bg-white flex justify-between items-center shadow-md p-3 rounded-md'>
                         <div className='flex gap-3 items-center'>
-                            <img className='w-[29px] h-[32px]' src={ctg5} alt="" />
+                            <img className='w-[25px] h-[25px]' src={ctg5} alt="" />
                             <p className='text-gray-700'>Home and Lifestyle</p>
                         </div>
                         <img className='h-4' src={icon} alt="" />
                     </div>
                     <div className='bg-white flex justify-between items-center shadow-md p-3 rounded-md'>
                         <div className='flex gap-3 items-center'>
-                            <img className='w-[29px] h-[32px]' src={ctg6} alt="" />
+                            <img className='w-[25px] h-[25px]' src={ctg6} alt="" />
                             <p className='text-gray-700'>Men Fashion</p>
                         </div>
                         <img className='h-4' src={icon} alt="" />
                     </div>
                     <div className='bg-white flex justify-between items-center shadow-md p-3 rounded-md'>
                         <div className='flex gap-3 items-center'>
-                            <img className='w-[29px] h-[32px]' src={ctg7} alt="" />
+                            <img className='w-[25px] h-[25px]' src={ctg7} alt="" />
                             <p className='text-gray-700'>Women's Fashion</p>
                         </div>
                         <img className='h-4' src={icon} alt="" />
                     </div>
                     <div className='bg-white flex justify-between items-center shadow-md p-3 rounded-md'>
                         <div className='flex gap-3 items-center'>
-                            <img className='w-[29px] h-[32px]' src={ctg8} alt="" />
+                            <img className='w-[25px] h-[25px]' src={ctg8} alt="" />
                             <p className='text-gray-700'>Stationary and books</p>
                         </div>
                         <img className='h-4' src={icon} alt="" />
                     </div>
                     <div className='bg-white flex justify-between items-center shadow-md p-3 rounded-md'>
                         <div className='flex gap-3 items-center'>
-                            <img className='w-[29px] h-[32px]' src={ctg9} alt="" />
+                            <img className='w-[25px] h-[25px]' src={ctg9} alt="" />
                             <p className='text-gray-700'>Lether Goods</p>
                         </div>
                         <img className='h-4' src={icon} alt="" />
                     </div>
                     <div className='bg-white flex justify-between items-center shadow-md px-3 rounded-md'>
                         <div className='flex gap-3 items-center'>
-                            <img className='w-[29px] h-[32px]' src={ctg10} alt="" />
+                            <img className='w-[25px] h-[25px]' src={ctg10} alt="" />
                             <p className='text-gray-700'>Jewelleries</p>
                         </div>
                         <img className='h-4' src={icon} alt="" />
                     </div>
                     <div className='bg-white flex justify-between items-center shadow-md p-3 rounded-md'>
                         <div className='flex gap-3 items-center'>
-                            <img className='w-[29px] h-[32px]' src={ctg11} alt="" />
+                            <img className='w-[25px] h-[25px]' src={ctg11} alt="" />
                             <p className='text-gray-700'>Watches</p>
                         </div>
                         <img className='h-4' src={icon} alt="" />
                     </div>
                     <div className='bg-white flex justify-between items-center shadow-md p-3 rounded-md'>
                         <div className='flex gap-3 items-center'>
-                            <img className='w-[29px] h-[32px]' src={ctg12} alt="" />
+                            <img className='w-[25px] h-[25px]' src={ctg12} alt="" />
                             <p className='text-gray-700'>Men Fashion</p>
                         </div>
                         <img className='h-4' src={icon} alt="" />
                     </div>
                     <div className='bg-white flex justify-between items-center shadow-md p-3 rounded-md'>
                         <div className='flex gap-3 items-center'>
-                            <img className='w-[29px] h-[32px]' src={ctg13} alt="" />
+                            <img className='w-[25px] h-[25px]' src={ctg13} alt="" />
                             <p className='text-gray-700'>Tools & Hardware</p>
                         </div>
                         <img className='h-4' src={icon} alt="" />
                     </div>
                     <div className='bg-white flex justify-between items-center shadow-md p-3 rounded-md'>
                         <div className='flex gap-3 items-center'>
-                            <img className='w-[29px] h-[32px]' src={ctg14} alt="" />
+                            <img className='w-[25px] h-[25px]' src={ctg14} alt="" />
                             <p className='text-gray-700'>Pet Supplies</p>
                         </div>
                         <img className='h-4' src={icon} alt="" />
                     </div>
                     <div className='bg-white flex justify-between items-center shadow-md p-3 rounded-md'>
                         <div className='flex gap-3 items-center'>
-                            <img className='w-[29px] h-[32px]' src={ctg15} alt="" />
+                            <img className='w-[25px] h-[25px]' src={ctg15} alt="" />
                             <p className='text-gray-700'>Seasonal</p>
                         </div>
                         <img className='h-4' src={icon} alt="" />
