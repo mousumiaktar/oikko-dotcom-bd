@@ -12,7 +12,7 @@ const FlashDeals = () => {
     return (
         <Container>
             <div className='flex justify-between mt-10 mb-5'>
-                <h2 className='font-bold'>Flash Deals</h2>
+                <h2 className='font-medium text-[#383838]'>Flash Deals</h2>
                 <div className='flex items-center gap-2'>
                     <p>View more</p>
                     <AiOutlineArrowRight />

@@ -6,10 +6,12 @@ import Details from './components/pages/details/Details';
 import Home from './components/pages/home/Home';
 import ProductCategory from './components/pages/productCategory/ProductCategory';
 import Footer from './components/share/footer/Footer';
+import Navbar from './components/share/navbar/Navbar';
 
 function App() {
   return (
     <div>
+      <Navbar />
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/details' element={<Details />}></Route>
