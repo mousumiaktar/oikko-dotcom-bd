@@ -32,29 +32,29 @@ const FilterProduct = () => {
                     <small><AiOutlineDown /></small>
                 </div>
                 <div>
-                    <div className='flex gap-2'>
+                    <div className='flex gap-2 mb-1'>
                         <input type="checkbox" name="" id="" />
                         <AiFillStar className='text-[#FFAD01]' />
                     </div>
-                    <div className='flex gap-2'>
+                    <div className='flex gap-2 mb-1'>
                         <input type="checkbox" name="" id="" />
                         <AiFillStar className='text-[#FFAD01]' />
                         <AiFillStar className='text-[#FFAD01]' />
                     </div>
-                    <div className='flex gap-2'>
-                        <input type="checkbox" name="" id="" />
-                        <AiFillStar className='text-[#FFAD01]' />
-                        <AiFillStar className='text-[#FFAD01]' />
-                        <AiFillStar className='text-[#FFAD01]' />
-                    </div>
-                    <div className='flex gap-2'>
+                    <div className='flex gap-2 mb-1'>
                         <input type="checkbox" name="" id="" />
                         <AiFillStar className='text-[#FFAD01]' />
                         <AiFillStar className='text-[#FFAD01]' />
                         <AiFillStar className='text-[#FFAD01]' />
+                    </div>
+                    <div className='flex gap-2 mb-1'>
+                        <input type="checkbox" name="" id="" />
+                        <AiFillStar className='text-[#FFAD01]' />
+                        <AiFillStar className='text-[#FFAD01]' />
+                        <AiFillStar className='text-[#FFAD01]' />
                         <AiFillStar className='text-[#FFAD01]' />
                     </div>
-                    <div className='flex gap-2'>
+                    <div className='flex gap-2 mb-1'>
                         <input type="checkbox" name="" id="" />
                         <AiFillStar className='text-[#FFAD01]' />
                         <AiFillStar className='text-[#FFAD01]' />
