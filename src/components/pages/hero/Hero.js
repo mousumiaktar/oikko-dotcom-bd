@@ -20,14 +20,14 @@ const Hero = () => {
                         <img className='lg:ml-[110px]' src={youngMan} alt="" />
                     </div>
                 </div>
-                <div className='md:grid grid-rows-2 gap-4 lg:h-[450px] w-mx-auto md:mt-5 lg:mt-0 mt-4'>
-                    <div>
-                        <img className='lg:w-[500px] lg:h-full relative rounded-md' src={delivery1} alt="" />
-                        <p className='absolute lg:ml-[70px] md:ml-[110px] ml-[70px] mt-[-60px] bg-[rgba(250,250,250,0.8)] py-2 px-4 text-[#0198E9] font-semibold'>Groceries collection</p>
+                <div className='md:flex lg:grid grid-rows-2 gap-4 lg:h-[450px] w-mx-auto md:mt-5 lg:mt-0 mt-4'>
+                    <div className='relative'>
+                        <img className='lg:w-[500px] lg:h-full rounded-md' src={delivery1} alt="" />
+                        <p className='absolute xl:ml-[70px] lg:ml-[32px] lg:text-sm md:ml-[70px] ml-[60px] mt-[-60px] bg-[rgba(250,250,250,0.8)] py-2 px-4 text-[#0198E9] font-semibold'>Groceries collection</p>
                     </div>
-                    <div className='mt-5 md:mt-0'>
+                    <div className='mt-5 md:mt-0 relative'>
                         <img className='lg:w-[500px] lg:h-full rounded-md' src={delivery2} alt="" />
-                        <p className='absolute lg:ml-[30px] md:ml-[90px] ml-[30px] mt-[-60px] bg-[rgba(250,250,250,0.8)] py-2 px-4 text-[#0198E9] font-semibold'>Health & Beauty collection</p>
+                        <p className='absolute xl:ml-[30px] lg:ml-[10px] lg:text-sm md:ml-[40px] ml-[30px] mt-[-60px] bg-[rgba(250,250,250,0.8)] py-2 px-4 text-[#0198E9] font-semibold'>Health & Beauty collection</p>
                     </div>
                 </div>
             </div>

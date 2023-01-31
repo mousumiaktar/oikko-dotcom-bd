@@ -20,13 +20,13 @@ const FlashDeals = () => {
                 </div>
             </div>
             {/* FLAS DEALS ITEMS */}
-            <div className='lg:grid lg:grid-cols-4 md:grid md:grid-cols-3 gap-4'>
+            <div className='grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4'>
                 <div className='h-[350px] bg-white border border-[#F4F4F6] p-2 rounded-md mb-4'>
-                    <div className='bg-[#F4F4F6] rounded-md'>
-                        <img className='w-[150px] h-[200px] mx-auto pt-4 relative' src={deals1} alt="" />
+                    <div className='bg-[#F4F4F6] rounded-md relative'>
+                        <img className='w-[150px] h-[200px] mx-auto pt-4' src={deals1} alt="" />
                         <div className=' mb[-100px]'>
                             <small className='bg-gradient-to-r from-[#FF7A01] to-[#FFAE01] px-1 rounded-tl-lg absolute mt-[-200px] text-white'>-25%OFF</small>
-                            <AiOutlineHeart className='absolute lg:ml-[250px] ml-[250px] mt-[-180px] text-gray-400 md:ml-[180px]' />
+                            <AiOutlineHeart className='absolute xl:ml-[250px] lg:ml-[180px] sm:ml-[220px] ml-[250px] mt-[-185px] text-gray-400 md:ml-[180px]' />
                         </div>
                     </div>
                     <div className='mt-2'>
@@ -45,7 +45,7 @@ const FlashDeals = () => {
                         <img className='w-[150px] h-[200px] mx-auto pt-4 relative' src={deals2} alt="" />
                         <div className=' mb[-100px]'>
                             <small className='bg-gradient-to-r from-[#FF7A01] to-[#FFAE01] px-1 rounded-tl-lg absolute mt-[-200px] text-white'>-25%OFF</small>
-                            <AiFillHeart className='absolute lg:ml-[250px] ml-[250px] mt-[-180px] text-[#FF5555] md:ml-[180px]' />
+                            <AiFillHeart className='absolute xl:ml-[250px] lg:ml-[180px] sm:ml-[220px] ml-[250px] mt-[-185px] text-[#FF5555] md:ml-[180px]' />
                         </div>
                     </div>
                     <div className='mt-2'>
@@ -60,11 +60,11 @@ const FlashDeals = () => {
                     </div>
                 </div>
                 <div className='h-[350px] bg-white border border-[#F4F4F6] p-2 rounded-md mb-4'>
-                    <div className='bg-[#F2F2F2] rounded-md'>
-                        <img className='w-[150px] h-[200px] mx-auto pt-4 relative' src={deals3} alt="" />
+                    <div className='bg-[#F2F2F2] rounded-md relative'>
+                        <img className='w-[150px] h-[200px] mx-auto pt-4' src={deals3} alt="" />
                         <div className=' mb[-100px]'>
                             <small className='bg-gradient-to-r from-[#FF7A01] to-[#FFAE01] px-1 rounded-tl-lg absolute mt-[-200px] text-white'>-25%OFF</small>
-                            <AiOutlineHeart className='absolute lg:ml-[250px] ml-[250px] mt-[-180px] text-gray-400 md:ml-[180px]' />
+                            <AiOutlineHeart className='absolute xl:ml-[250px] lg:ml-[180px] sm:ml-[220px] ml-[250px] mt-[-185px] text-gray-400 md:ml-[180px]' />
                         </div>
                     </div>
                     <div className='mt-2'>
@@ -79,11 +79,11 @@ const FlashDeals = () => {
                     </div>
                 </div>
                 <div className='h-[350px] bg-white border border-[#F4F4F6] p-2 rounded-md mb-4'>
-                    <div className='bg-[#F2F2F2] rounded-md'>
-                        <img className='w-[150px] h-[200px] mx-auto pt-4 relative' src={deals4} alt="" />
+                    <div className='bg-[#F2F2F2] rounded-md relative'>
+                        <img className='w-[150px] h-[200px] mx-auto pt-4' src={deals4} alt="" />
                         <div className=' mb[-100px]'>
                             <small className='bg-gradient-to-r from-[#FF7A01] to-[#FFAE01] px-1 rounded-tl-lg absolute mt-[-200px] text-white'>-25%OFF</small>
-                            <AiOutlineHeart className='absolute lg:ml-[250px] ml-[250px] mt-[-180px] text-gray-400 md:ml-[180px]' />
+                            <AiOutlineHeart className='absolute xl:ml-[250px] lg:ml-[180px] sm:ml-[220px] ml-[250px] mt-[-185px] text-gray-400 md:ml-[180px]' />
                         </div>
                     </div>
                     <div>

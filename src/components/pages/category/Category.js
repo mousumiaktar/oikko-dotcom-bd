@@ -25,7 +25,7 @@ const Category = () => {
                 <div className='flex justify-between mt-10 mb-5'>
                     <h2 className='font-medium text-[#383838]'>Category</h2>
                 </div>
-                <div className='lg:grid lg:grid-cols-5 md:grid md:grid-cols-3 grid grid-cols-1 gap-3 mt-8 text-sm'>
+                <div className='grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-3 mt-8 text-sm'>
                     <div className='bg-white flex justify-between items-center shadow-md p-3 rounded-md'>
                         <div className='flex gap-3 items-center'>
                             <img className='w-[25px] h-[25px]' src={ctg1} alt="" />
