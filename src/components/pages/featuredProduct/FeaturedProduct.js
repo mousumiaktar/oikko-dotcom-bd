@@ -34,12 +34,12 @@ const FeaturedProduct = () => {
             </div>
             {/* PRODUCT FEATURED */}
 
-            <div className='grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4'>
+            <div className='grid grid-cols-2 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4'>
                 <div className='h-[350px] bg-white border border-[#F4F4F6] p-2 rounded-md mb-4'>
                     <div className='bg-[#F4F4F6] rounded-md relative'>
                         <img className='w-[150px] h-[200px] mx-auto pt-4 ' src={pro1} alt="" />
                         <div className=' mb[-100px]'>
-                            <AiOutlineHeart className='absolute xl:ml-[250px] lg:ml-[180px] sm:ml-[220px] ml-[250px] mt-[-185px] text-gray-400 md:ml-[180px]' />
+                            <AiOutlineHeart className='absolute xl:ml-[250px] lg:ml-[180px] sm:ml-[220px] ml-[100px] mt-[-185px] text-gray-400 md:ml-[180px]' />
                         </div>
                     </div>
                     <div className='mt-2'>
@@ -57,7 +57,7 @@ const FeaturedProduct = () => {
                     <div className='bg-[#E0DFE5] rounded-md relative'>
                         <img className='w-[150px] h-[200px] mx-auto pt-4' src={pro2} alt="" />
                         <div className=' mb[-100px]'>
-                            <AiFillHeart className='absolute xl:ml-[250px] lg:ml-[180px] sm:ml-[220px] ml-[250px] mt-[-185px] text-[#FF5555] md:ml-[180px]' />
+                            <AiFillHeart className='absolute xl:ml-[250px] lg:ml-[180px] sm:ml-[220px] ml-[100px] mt-[-185px] text-[#FF5555] md:ml-[180px]' />
                         </div>
                     </div>
                     <div className='mt-2'>
@@ -75,7 +75,7 @@ const FeaturedProduct = () => {
                     <div className='bg-[#E0DFE5] rounded-md relative'>
                         <img className='w-[150px] h-[200px] mx-auto pt-4' src={pro3} alt="" />
                         <div className=' mb[-100px]'>
-                            <AiOutlineHeart className='absolute xl:ml-[250px] lg:ml-[180px] sm:ml-[220px] ml-[250px] mt-[-185px] text-gray-400 md:ml-[180px]' />
+                            <AiOutlineHeart className='absolute xl:ml-[250px] lg:ml-[180px] sm:ml-[220px] ml-[100px] mt-[-185px] text-gray-400 md:ml-[180px]' />
                         </div>
                     </div>
                     <div className='mt-2'>
@@ -93,7 +93,7 @@ const FeaturedProduct = () => {
                     <div className='bg-[#F2F2F2] rounded-md relative'>
                         <img className='w-[150px] h-[200px] mx-auto pt-4 ' src={pro4} alt="" />
                         <div className=' mb[-100px]'>
-                            <AiOutlineHeart className='absolute xl:ml-[250px] lg:ml-[180px] sm:ml-[220px] ml-[250px] mt-[-185px] text-gray-400 md:ml-[180px]' />
+                            <AiOutlineHeart className='absolute xl:ml-[250px] lg:ml-[180px] sm:ml-[220px] ml-[100px] mt-[-185px] text-gray-400 md:ml-[180px]' />
                         </div>
                     </div>
                     <div>
@@ -132,7 +132,7 @@ const FeaturedProduct = () => {
                     <div className='bg-[#F4F4F4] rounded-md relative'>
                         <img className='w-[150px] h-[200px] mx-auto pt-4' src={pro6} alt="" />
                         <div className=' mb[-100px]'>
-                            <AiOutlineHeart className='absolute xl:ml-[250px] lg:ml-[180px] sm:ml-[220px] ml-[250px] mt-[-185px] text-gray-400 md:ml-[180px]' />
+                            <AiOutlineHeart className='absolute xl:ml-[250px] lg:ml-[180px] sm:ml-[220px] ml-[100px] mt-[-185px] text-gray-400 md:ml-[180px]' />
                         </div>
                     </div>
                     <div>
@@ -150,7 +150,7 @@ const FeaturedProduct = () => {
                     <div className='bg-[#F2F2F2] rounded-md relative'>
                         <img className='w-[150px] h-[200px] mx-auto pt-4' src={pro7} alt="" />
                         <div className=' mb[-100px]'>
-                            <AiOutlineHeart className='absolute xl:ml-[250px] lg:ml-[180px] sm:ml-[220px] ml-[250px] mt-[-185px] text-gray-400 md:ml-[180px]' />
+                            <AiOutlineHeart className='absolute xl:ml-[250px] lg:ml-[180px] sm:ml-[220px] ml-[100px] mt-[-185px] text-gray-400 md:ml-[180px]' />
                         </div>
                     </div>
                     <div>
@@ -168,7 +168,7 @@ const FeaturedProduct = () => {
                     <div className='bg-[#F2F2F2] rounded-md relative'>
                         <img className='w-[150px] h-[200px] mx-auto pt-4' src={pro8} alt="" />
                         <div className=' mb[-100px]'>
-                            <AiOutlineHeart className='absolute xl:ml-[250px] lg:ml-[180px] sm:ml-[220px] ml-[250px] mt-[-185px] text-gray-400 md:ml-[180px]' />
+                            <AiOutlineHeart className='absolute xl:ml-[250px] lg:ml-[180px] sm:ml-[220px] ml-[100px] mt-[-185px] text-gray-400 md:ml-[180px]' />
                         </div>
                     </div>
                     <div>
@@ -189,7 +189,7 @@ const FeaturedProduct = () => {
                     <div className='bg-[#F2F2F2] rounded-md relative'>
                         <img className='w-[150px] h-[200px] mx-auto pt-4' src={pro9} alt="" />
                         <div className=' mb[-100px]'>
-                            <AiOutlineHeart className='absolute xl:ml-[250px] lg:ml-[180px] sm:ml-[220px] ml-[250px] mt-[-185px] text-gray-400 md:ml-[180px]' />
+                            <AiOutlineHeart className='absolute xl:ml-[250px] lg:ml-[180px] sm:ml-[220px] ml-[100px] mt-[-185px] text-gray-400 md:ml-[180px]' />
                         </div>
                     </div>
                     <div>
@@ -207,7 +207,7 @@ const FeaturedProduct = () => {
                     <div className='bg-[#F2F2F2] rounded-md relative'>
                         <img className='w-[150px] h-[200px] mx-auto pt-4' src={pro10} alt="" />
                         <div className=' mb[-100px]'>
-                            <AiOutlineHeart className='absolute xl:ml-[250px] lg:ml-[180px] sm:ml-[220px] ml-[250px] mt-[-185px] text-gray-400 md:ml-[180px]' />
+                            <AiOutlineHeart className='absolute xl:ml-[250px] lg:ml-[180px] sm:ml-[220px] ml-[100px] mt-[-185px] text-gray-400 md:ml-[180px]' />
                         </div>
                     </div>
                     <div>
@@ -225,7 +225,7 @@ const FeaturedProduct = () => {
                     <div className='bg-[#F2F2F2] rounded-md relative'>
                         <img className='w-[150px] h-[200px] mx-auto pt-4' src={pro11} alt="" />
                         <div className=' mb[-100px]'>
-                            <AiOutlineHeart className='absolute xl:ml-[250px] lg:ml-[180px] sm:ml-[220px] ml-[250px] mt-[-185px] text-gray-400 md:ml-[180px]' />
+                            <AiOutlineHeart className='absolute xl:ml-[250px] lg:ml-[180px] sm:ml-[220px] ml-[100px] mt-[-185px] text-gray-400 md:ml-[180px]' />
                         </div>
                     </div>
                     <div>
@@ -243,7 +243,7 @@ const FeaturedProduct = () => {
                     <div className='bg-[#F2F2F2] rounded-md relative'>
                         <img className='w-[150px] h-[200px] mx-auto pt-4' src={pro12} alt="" />
                         <div className=' mb[-100px]'>
-                            <AiOutlineHeart className='absolute xl:ml-[250px] lg:ml-[180px] sm:ml-[220px] ml-[250px] mt-[-185px] text-gray-400 md:ml-[180px]' />
+                            <AiOutlineHeart className='absolute xl:ml-[250px] lg:ml-[180px] sm:ml-[220px] ml-[100px] mt-[-185px] text-gray-400 md:ml-[180px]' />
                         </div>
                     </div>
                     <div>
@@ -264,7 +264,7 @@ const FeaturedProduct = () => {
                     <div className='bg-[#F4F4F7] rounded-md relative'>
                         <img className='w-[150px] h-[200px] mx-auto pt-4' src={pro13} alt="" />
                         <div className=' mb[-100px]'>
-                            <AiOutlineHeart className='absolute xl:ml-[250px] lg:ml-[180px] sm:ml-[220px] ml-[250px] mt-[-185px] text-gray-400 md:ml-[180px]' />
+                            <AiOutlineHeart className='absolute xl:ml-[250px] lg:ml-[180px] sm:ml-[220px] ml-[100px] mt-[-185px] text-gray-400 md:ml-[180px]' />
                         </div>
                     </div>
                     <div>
@@ -282,7 +282,7 @@ const FeaturedProduct = () => {
                     <div className='bg-[#F5F5F5] rounded-md relative'>
                         <img className='w-[150px] h-[200px] mx-auto pt-4' src={pro14} alt="" />
                         <div className=' mb[-100px]'>
-                            <AiOutlineHeart className='absolute xl:ml-[250px] lg:ml-[180px] sm:ml-[220px] ml-[250px] mt-[-185px] text-gray-400 md:ml-[180px]' />
+                            <AiOutlineHeart className='absolute xl:ml-[250px] lg:ml-[180px] sm:ml-[220px] ml-[100px] mt-[-185px] text-gray-400 md:ml-[180px]' />
                         </div>
                     </div>
                     <div>
@@ -300,7 +300,7 @@ const FeaturedProduct = () => {
                     <div className='bg-[#F1F2F3] rounded-md relative'>
                         <img className='w-[150px] h-[200px] mx-auto pt-4' src={pro15} alt="" />
                         <div className=' mb[-100px]'>
-                            <AiOutlineHeart className='absolute xl:ml-[250px] lg:ml-[180px] sm:ml-[220px] ml-[250px] mt-[-185px] text-gray-400 md:ml-[180px]' />
+                            <AiOutlineHeart className='absolute xl:ml-[250px] lg:ml-[180px] sm:ml-[220px] ml-[100px] mt-[-185px] text-gray-400 md:ml-[180px]' />
                         </div>
                     </div>
                     <div>
@@ -318,7 +318,7 @@ const FeaturedProduct = () => {
                     <div className='bg-[#F4F4F6] rounded-md relative'>
                         <img className='w-[150px] h-[200px] mx-auto pt-4' src={pro16} alt="" />
                         <div className=' mb[-100px]'>
-                            <AiOutlineHeart className='absolute xl:ml-[250px] lg:ml-[180px] sm:ml-[220px] ml-[250px] mt-[-185px] text-gray-400 md:ml-[180px]' />
+                            <AiOutlineHeart className='absolute xl:ml-[250px] lg:ml-[180px] sm:ml-[220px] ml-[100px] mt-[-185px] text-gray-400 md:ml-[180px]' />
                         </div>
                     </div>
                     <div>
