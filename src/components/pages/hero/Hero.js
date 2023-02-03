@@ -27,7 +27,7 @@ const Hero = () => {
                     </div>
                     <div className='mt-5 md:mt-0 relative'>
                         <img className='lg:w-[500px] lg:h-full rounded-md' src={delivery2} alt="" />
-                        <p className='absolute xl:ml-[30px] lg:ml-[10px] lg:text-sm md:ml-[40px] ml-[30px] mt-[-60px] bg-[rgba(250,250,250,0.8)] py-2 px-4 text-[#0198E9] font-semibold'>Health & Beauty collection</p>
+                        <p className='absolute xl:ml-[45px] lg:ml-[10px] lg:text-sm md:ml-[40px] ml-[30px] mt-[-60px] bg-[rgba(250,250,250,0.8)] py-2 px-4 text-[#0198E9] font-semibold'>Health & Beauty collection</p>
                     </div>
                 </div>
             </div>
