@@ -5,7 +5,7 @@ import SectionTwo from './SectionTwo';
 
 const Footer = () => {
     return (
-        <div>
+        <div className='mt-5'>
           <SectionOne />
           <SectionTwo />
           <SectionThree />

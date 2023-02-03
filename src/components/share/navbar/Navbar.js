@@ -15,8 +15,8 @@ const Navbar = () => {
     };
 
     return (
-        <>
-            <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 '>
+        <div>
+            <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4'>
                 <div>
                     <NavLink to={"/"}><img src={logo} alt="" /></NavLink>
                 </div>
@@ -42,7 +42,7 @@ const Navbar = () => {
                 </div>
             </div>
             <SecondNav />
-        </>
+        </div>
     );
 };
 
