@@ -18,7 +18,7 @@ const Navbar = () => {
         <>
             <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 '>
                 <div>
-                    <img src={logo} alt="" />
+                    <NavLink to={"/"}><img src={logo} alt="" /></NavLink>
                 </div>
                 <div className='hidden lg:block'>
                     <div className='flex items-center '>
