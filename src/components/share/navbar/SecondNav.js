@@ -24,7 +24,7 @@ const SecondNav = () => {
                 <div onClick={handleNav} className='block md:hidden'>
                     {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
                 </div>
-                <ul className={nav ? 'fixed right-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500' : 'ease-in-out duration-500 fixed right-[100%] z-10'}>
+                <ul className={nav ? 'fixed right-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#66A6E0] ease-in-out duration-500' : 'ease-in-out duration-500 fixed right-[100%] z-10'}>
                     <li className='p-4 border-b border-gray-600'><NavLink className="text-white">Women's Fashion</NavLink></li>
                     <li className='p-4 border-b border-gray-600 '><NavLink className="text-white">men's Fashion</NavLink></li>
                     <li className='p-4 border-b border-gray-600 '><NavLink className="text-white">Kid's Fashion</NavLink></li>
